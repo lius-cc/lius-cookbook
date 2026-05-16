@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+data/cache/
+data/*.faiss
+data/*.pkl
+.vscode/
+.idea/
+*.tmp

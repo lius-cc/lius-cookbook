@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "LIUS Cookbook: Official How-We-Use Walkthroughs for the Open-Source Daoism LLM"
+message: "If you use this software or these notebooks, please cite as below."
+type: software
+authors:
+  - family-names: Liu
+    given-names: Chi-Ying
+    affiliation: "Dingren Daoxue Lab"
+    email: chiyingliu@gmail.com
+  - name: "Dingren Daoxue Lab"
+repository-code: "https://github.com/lius-cc/lius-cookbook"
+url: "https://lius.cc/llm"
+abstract: >-
+  A set of Jupyter notebooks that demonstrate how to use the Daoism-Qwen3.5-9B
+  model, the daoism-knowledge-rag dataset (95,919 nodes), and the public RAG API
+  at lius.cc/api/llm-rag. Each notebook mirrors a live demo at lius.cc/llm/demos
+  and is designed to be the minimum reproducible artifact for researchers who
+  want to build their own Daoist-knowledge LLM applications.
+keywords:
+  - Daoism
+  - Taoism
+  - LLM
+  - RAG
+  - Qwen
+  - religious-studies
+  - chinese-philosophy
+license: CC0-1.0
+version: "0.1.0"
+date-released: "2026-05-17"
