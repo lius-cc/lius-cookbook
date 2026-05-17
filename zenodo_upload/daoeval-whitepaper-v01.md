@@ -9,7 +9,7 @@ License: CC0 1.0
 
 ## Abstract
 
-現有 LLM 評測（MMLU、CMMLU、C-Eval）對中國宗教 / 道教知識覆蓋極淺、且多為選擇題形式，無法評測「文獻溯源、跨派詮釋、儀式流程準確性」三大關鍵能力。**DaoEval** 提出首個專門針對道教知識的評測框架：500 黃金樣例 JSONL（涵蓋 8 大類）、信賴度 ABCD 分級、ID 規範與底本欄位，以及三模型 cross-validate 之答案標註流程。全部 CC0；v0.1 未經同儕審查不具引用資格，Zenodo DOI 凍結後可正式引用，後續期刊投稿審查後進入正式學術引用體系。
+現有 LLM 評測（MMLU、CMMLU、C-Eval）對中國宗教 / 道教知識覆蓋極淺、且多為選擇題形式，無法評測「文獻溯源、跨派詮釋、儀式流程準確性」三大關鍵能力。**DaoEval** 提出首個專門針對道教知識的評測框架：500 黃金樣例 JSONL（涵蓋 8 大類）、信賴度 ABCD 分級、ID 規範與底本欄位，以及三模型 cross-validate 之答案標註流程。全部 CC0；v0.1 為 preprint，現已透過 Zenodo DOI [10.5281/zenodo.20248697](https://doi.org/10.5281/zenodo.20248697) 永久存檔可正式引用；後續期刊投稿審查後進入正式同儕審查學術引用體系。
 
 ## 1 · 研究動機
 
@@ -129,7 +129,7 @@ API:
 | Claude-Opus-4.7 | — | — | — |
 | DeepSeek-V3 | — | — | — |
 
-500 樣例固化後在 D30 前跑完。
+500 樣例固化後跑完，與 Zenodo 同步更新版本。
 
 ## 9 · 侷限性
 
@@ -140,13 +140,13 @@ API:
 
 ## 10 · 致謝
 
-鼎稔道學館全體編譯團隊；劉厝派傳承師長；D30 前確認的漢學家共同作者群；所有 lius.cc 節點維護者。
+鼎稔道學館全體編譯團隊；劉厝派傳承師長；後續確認的漢學家共同作者群；所有 lius.cc 節點維護者。
 
 ---
 
 ## DOI 與引用
 
-本 v0.1 為公開先發版（preprint-style），尚未取得 Zenodo DOI。Zenodo DOI 預定於 D30 釋出。引用格式：
+本 v0.1 為公開先發版（preprint-style），已透過 Zenodo 取得永久存檔與 DOI：**10.5281/zenodo.20248697**（CC0，3 檔，2026-05-17 釋出）。引用格式：
 
 ```bibtex
 @techreport{daoeval-v01,
@@ -156,8 +156,8 @@ API:
   month     = {May},
   institution = {Dingren Daoxue Lab},
   url       = {https://lius.cc/llm/whitepaper},
-  note      = {Preprint v0.1; Zenodo DOI pending},
-  doi       = {10.5281/zenodo.TBD},
+  note      = {Preprint v0.1; archived on Zenodo},
+  doi       = {10.5281/zenodo.20248697},
   license   = {CC0-1.0}
 }
 ```

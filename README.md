@@ -7,7 +7,7 @@ This repo contains the official recipes for using the [Daoism-Qwen3.5-9B](https:
 
 Every notebook here mirrors a public demo on [lius.cc/llm/demos](https://lius.cc/llm/demos). Clone the recipe, change one line of prompt, and you've built a new research tool.
 
-> **v0.1 preprint — not peer-reviewed.** Academic citation requires the upcoming Zenodo DOI (planned D30) and subsequent journal-version review.
+> **v0.1 preprint — not peer-reviewed.** Citable via Zenodo DOI [**10.5281/zenodo.20248697**](https://doi.org/10.5281/zenodo.20248697) (CC0). Formal peer-reviewed version pending journal submission.
 
 ---
 
@@ -56,6 +56,17 @@ for hit in r["hits"]:
 ## How to cite
 
 ```bibtex
+@techreport{daoeval-v01,
+  author    = {Liu, Chi-Ying and Dingren Daoxue Lab},
+  title     = {DaoEval: An Open Evaluation Framework for Taoist-Knowledge LLMs},
+  year      = {2026},
+  month     = {May},
+  institution = {Dingren Daoxue Lab},
+  url       = {https://lius.cc/llm/whitepaper},
+  doi       = {10.5281/zenodo.20248697},
+  license   = {CC0-1.0}
+}
+
 @misc{lius-cookbook-2026,
   author = {Liu, Chi-Ying and Dingren Daoxue Lab},
   title  = {LIUS Cookbook: Official How-We-Use Walkthroughs for the Open-Source Daoism LLM},
@@ -81,7 +92,7 @@ for hit in r["hits"]:
 This work is released under a "**publish first, monopolize through evidence**" strategy:
 
 - **GitHub commits** — immutable timestamps (this repo)
-- **Zenodo DOI** — citable archive (planned D30)
+- **Zenodo DOI** — `10.5281/zenodo.20248697` ([live](https://zenodo.org/records/20248697), CC0, 3 files)
 - **Wayback Machine** — weekly snapshots of lius.cc/llm pages
 
 Formal peer-reviewed version will follow via journal submission (Religion & Computing / Journal of Chinese Religions / DHQ).
