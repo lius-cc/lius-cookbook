@@ -23,7 +23,9 @@ Every notebook here mirrors a public demo on [lius.cc/llm/demos](https://lius.cc
 | 05 | [how-we-build-deity-guide.ipynb](notebooks/how-we-build-deity-guide.ipynb) | [▶ C](https://lius.cc/llm/demos/deity-guide) | Deity functions + sacred sites |
 | 06 | [how-we-compare-terms.ipynb](notebooks/how-we-compare-terms.ipynb) | [▶ D](https://lius.cc/llm/demos/term-compare) | Cross-sect terminology diff |
 | 07 | [how-we-trace-citations.ipynb](notebooks/how-we-trace-citations.ipynb) | [▶ E](https://lius.cc/llm/demos/citation-trace) | Citation trace + ABCD grading |
-| 08 | [how-we-build-ritual-flow.ipynb](notebooks/how-we-build-ritual-flow.ipynb) | [▶ A](https://lius.cc/llm/demos/ritual-flow) | Ritual flow + sect difference |
+| 08 | [how-we-build-ritual-flow.ipynb](notebooks/how-we-build-ritual-flow.ipynb) | [▶ A5](https://lius.cc/llm/demos/ritual-flow) | Ritual flow + sect difference |
+| 09 | [how-we-build-temple-bot.ipynb](notebooks/how-we-build-temple-bot.ipynb) | [▶ A1](https://lius.cc/llm/demos/temple-bot) | Temple chat bot + red-line guard |
+| 10 | [how-we-build-worship-etiquette.ipynb](notebooks/how-we-build-worship-etiquette.ipynb) | [▶ C1](https://lius.cc/llm/demos/worship-etiquette) | Curated worship lookup (no AI) |
 
 Each notebook has an **Open in Colab** button at the top.
 
