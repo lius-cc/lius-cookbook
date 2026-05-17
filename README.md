@@ -7,7 +7,7 @@ This repo contains the official recipes for using the [Daoism-Qwen3.5-9B](https:
 
 Every notebook here mirrors a public demo on [lius.cc/llm/demos](https://lius.cc/llm/demos). Clone the recipe, change one line of prompt, and you've built a new research tool.
 
-> **v0.1 preprint — not peer-reviewed.** Academic citation requires the upcoming arXiv preprint + Zenodo DOI (planned D30).
+> **v0.1 preprint — not peer-reviewed.** Academic citation requires the upcoming Zenodo DOI (planned D30) and subsequent journal-version review.
 
 ---
 
@@ -76,9 +76,10 @@ for hit in r["hits"]:
 This work is released under a "**publish first, monopolize through evidence**" strategy:
 
 - **GitHub commits** — immutable timestamps (this repo)
-- **arXiv preprint** — academic-grade timestamp (planned D30)
 - **Zenodo DOI** — citable archive (planned D30)
 - **Wayback Machine** — weekly snapshots of lius.cc/llm pages
+
+Formal peer-reviewed version will follow via journal submission (Religion & Computing / Journal of Chinese Religions / DHQ).
 
 See [DaoEval Whitepaper v0.1](https://lius.cc/llm/whitepaper) for the full evaluation framework, 500-sample JSONL schema, and ABCD confidence grading.
 

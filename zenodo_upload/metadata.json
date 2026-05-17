@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "title": "DaoEval v0.1 — An Open Evaluation Framework for Taoist-Knowledge LLMs",
+    "creators": [
+      {
+        "name": "Liu, Chi-Ying",
+        "affiliation": "Dingren Daoxue Lab (鼎稔道學館)",
+        "orcid": null
+      },
+      {
+        "name": "Dingren Daoxue Lab",
+        "affiliation": "Dingren Daoxue Lab"
+      }
+    ],
+    "description": "DaoEval is the first open evaluation framework specifically targeted at Daoist-knowledge large language models. v0.1 includes: 10-chapter whitepaper (full text), 500-sample JSONL schema with sample examples, ABCD confidence grading, base-text and ID conventions, and a three-model cross-validation annotation protocol.\n\nExisting evaluation suites (MMLU, CMMLU, C-Eval) cover Daoism very thinly and only via multiple-choice questions. DaoEval is the first structured open framework covering scripture provenance, cross-sect interpretation, and ritual fidelity — three dimensions essential for any serious humanities application of LLMs in Chinese religious studies.\n\nThis deposit serves as the first formal citable archive of the DaoEval framework, complementing the GitHub repository at lius-cc/lius-cookbook and the live whitepaper at https://lius.cc/llm/whitepaper.\n\nLicense: CC0 1.0 Universal (public domain dedication).\nProject home: https://lius.cc/llm\nWhitepaper: https://lius.cc/llm/whitepaper\nCookbook: https://github.com/lius-cc/lius-cookbook",
+    "access_right": "open",
+    "license": "cc-zero",
+    "keywords": [
+      "Daoism",
+      "Taoism",
+      "LLM Evaluation",
+      "RAG",
+      "Religious Studies",
+      "Digital Humanities",
+      "Chinese Philosophy",
+      "Open Science",
+      "Apache 2.0",
+      "CC0"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lius-cc/lius-cookbook",
+        "relation": "isSupplementTo",
+        "resource_type": "software"
+      },
+      {
+        "identifier": "https://lius.cc/llm/whitepaper",
+        "relation": "isIdenticalTo",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "https://huggingface.co/lius-cc/Daoism-Qwen3.5-9B",
+        "relation": "isReferencedBy",
+        "resource_type": "software"
+      },
+      {
+        "identifier": "https://huggingface.co/datasets/lius-cc/daoism-knowledge-rag",
+        "relation": "isReferencedBy",
+        "resource_type": "dataset"
+      }
+    ],
+    "notes": "v0.1 preprint — not yet peer-reviewed. This Zenodo deposit provides a citable DOI for the work; formal peer review will follow via journal submission (Religion & Computing / Journal of Chinese Religions / Digital Humanities Quarterly).",
+    "language": "eng",
+    "communities": []
+  }
+}
