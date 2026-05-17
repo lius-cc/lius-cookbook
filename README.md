@@ -26,6 +26,8 @@ Every notebook here mirrors a public demo on [lius.cc/llm/demos](https://lius.cc
 | 08 | [how-we-build-ritual-flow.ipynb](notebooks/how-we-build-ritual-flow.ipynb) | [▶ A5](https://lius.cc/llm/demos/ritual-flow) | Ritual flow + sect difference |
 | 09 | [how-we-build-temple-bot.ipynb](notebooks/how-we-build-temple-bot.ipynb) | [▶ A1](https://lius.cc/llm/demos/temple-bot) | Temple chat bot + red-line guard |
 | 10 | [how-we-build-worship-etiquette.ipynb](notebooks/how-we-build-worship-etiquette.ipynb) | [▶ C1](https://lius.cc/llm/demos/worship-etiquette) | Curated worship lookup (no AI) |
+| 11 | [how-we-build-deity-mbti.ipynb](notebooks/how-we-build-deity-mbti.ipynb) | [▶ C4](https://lius.cc/llm/demos/deity-mbti) | 12-Q personality test → 16 deity outcomes (no AI) |
+| 12 | [how-we-build-daily-deity.ipynb](notebooks/how-we-build-daily-deity.ipynb) | [▶ C2](https://lius.cc/llm/demos/daily-deity) | Deterministic daily deity + quote card (no server) |
 
 Each notebook has an **Open in Colab** button at the top.
 
