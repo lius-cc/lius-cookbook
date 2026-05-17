@@ -29,6 +29,7 @@ Every notebook here mirrors a public demo on [lius.cc/llm/demos](https://lius.cc
 | 11 | [how-we-build-deity-mbti.ipynb](notebooks/how-we-build-deity-mbti.ipynb) | [▶ C4](https://lius.cc/llm/demos/deity-mbti) | 12-Q personality test → 16 deity outcomes (no AI) |
 | 12 | [how-we-build-daily-deity.ipynb](notebooks/how-we-build-daily-deity.ipynb) | [▶ C2](https://lius.cc/llm/demos/daily-deity) | Deterministic daily deity + quote card (no server) |
 | 13 | [how-we-build-llm-generate.ipynb](notebooks/how-we-build-llm-generate.ipynb) | [▶ A2](https://lius.cc/llm/demos/cultural-narrative) / [▶ A3](https://lius.cc/llm/demos/publishing-radar) / [▶ A4](https://lius.cc/llm/demos/gov-grant-copilot) | One LLM endpoint powering 3 A-track demos (RAG + multi-provider fallback) |
+| 14 | [how-we-build-field-interview-helper.ipynb](notebooks/how-we-build-field-interview-helper.ipynb) | [▶ B3](https://lius.cc/llm/demos/field-interview-helper) | Transcript → 8-type entity tagging (no RAG, LLM-only) |
 
 Each notebook has an **Open in Colab** button at the top.
 
